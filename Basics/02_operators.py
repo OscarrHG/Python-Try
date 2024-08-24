@@ -1,7 +1,6 @@
 """
-Operators
+Operadores Aritmeticos
 """
-
 print(3 + 4)
 print(3 - 4)
 print(3 * 4)
@@ -15,4 +14,34 @@ print("Hola " + "Python " + "WSP")
 print("Hola! " + str(5))
 print("Hola " * 5)
 
-#aumentando comentarios
+myFloat = 2.5 * 2
+print("Hola " * int(myFloat))
+
+"""
+Operadores Comparativos
+"""
+
+print(3 > 4)
+print(3 < 4)
+print(3 >= 4)
+print(3 <= 4)
+print(3 == 4)
+print(3 != 4)
+print("**************")
+
+print("Hola" > "Python")
+print("Hola" < "Python")
+print("Hola" >= "Python") #Ordenacion alfabetica
+print(len("Hola") <= len("Python"))
+print("Hola" == "Python")
+print("Hola" != "Python")
+
+"""
+Operadores Logicos
+"""
+print(3 > 4 and "Hola" > "Python")
+print(3 > 4 or "Hola" > "Python")
+print(3 < 4 and "Hola" < "Python")
+print(3 < 4 or "Hola" > "Python")
+print(3 < 4 or ("Hola" > "Python" and 4 == 4))
+print(not (3 > 4))
