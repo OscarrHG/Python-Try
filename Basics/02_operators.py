@@ -14,3 +14,5 @@ print(15 // 4) #Hacer division y el resultado aproximarla a un numero entero
 print("Hola " + "Python " + "WSP")
 print("Hola! " + str(5))
 print("Hola " * 5)
+
+#aumentando comentarios
